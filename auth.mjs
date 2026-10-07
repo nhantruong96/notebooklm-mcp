@@ -9,7 +9,7 @@
  * Running the vendor's own performSetup() in a plain Node process removes the
  * timeout entirely.
  *
- *   node C:\Tools\notebooklm-mcp\auth.mjs
+ *   node C:\mcp\notebooklm-mcp\auth.mjs
  *
  * Then log in and LEAVE THE WINDOW ALONE. It closes itself once NotebookLM
  * loads; closing it by hand aborts the run and nothing is saved.

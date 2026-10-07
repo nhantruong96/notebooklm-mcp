@@ -8,7 +8,7 @@
  * open the persistent profile, load NotebookLM, and if it comes up logged in,
  * call the vendor's own saveBrowserState().
  *
- *   node C:\Tools\notebooklm-mcp\save-state.mjs
+ *   node C:\mcp\notebooklm-mcp\save-state.mjs
  *
  * Non-destructive: never clears auth data. If the profile is NOT logged in,
  * it reports the URL it landed on and changes nothing.
